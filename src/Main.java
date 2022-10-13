@@ -41,5 +41,34 @@ public class Main {
         for (int i = 1; i <= 512; i*=2) {
             System.out.print(i + " ");
         }
+
+        //домашнее задание 3
+        //задание 1
+
+
+        System.out.println();
+        int cash = 29000;
+        int savings = 0;
+        for (int i = 1; i <= 12; i++) {
+            savings = cash + savings;
+            System.out.println("Месяц " + i + " сумма равна " + savings);
+        }
+
+        //задание 2
+
+        System.out.println();
+        int money = 29000;
+        int saves = 0;
+        for (int i = 1; i <= 12; i++) {
+            saves = saves + saves/100;
+            saves = money + saves;
+            System.out.println("Месяц " + i + ", сумма равна " + saves);
+
+        }
+
+
+
+
+
     }
 }
